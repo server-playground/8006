@@ -1,0 +1,24 @@
+{
+  "name": "8006",
+  "version": "1.0.0",
+  "description": "use `Adonis` to create a server playground.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm list @adonisjs/framework && echo 'the latest version:' && npm view @adonisjs/framework version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/server-playground/8006.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/server-playground/8006/issues"
+  },
+  "homepage": "https://github.com/server-playground/8006#readme",
+  "dependencies": {
+    "@adonisjs/framework": "^5.0.13"
+  }
+}
