@@ -1,10 +1,9 @@
 'use strict'
 
-const { Ignitor } = require('@adonisjs/ignitor')
+const { Ignitor } = require('@adonisjs/core/build/standalone')
 
-new Ignitor(require('@adonisjs/fold'))
-  .appRoot(__dirname)
-  .fireHttpServer()
-  .catch(console.error)
+new Ignitor(__dirname)
+  .httpServer()
+  .start()
 
 console.log('server is running on "http://localhost:8006/"')
