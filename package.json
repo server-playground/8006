@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "prestart": "npm list @adonisjs/framework && npm list @adonisjs/ignitor && npm list @adonisjs/fold && echo 'the latest version:' && npm view @adonisjs/framework version && npm view @adonisjs/ignitor version && npm view @adonisjs/fold version",
+    "prestart": "npm list @adonisjs/core && echo 'the latest version:' && npm view @adonisjs/core version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,8 +22,6 @@
   },
   "homepage": "https://github.com/server-playground/8006#readme",
   "dependencies": {
-    "@adonisjs/fold": "^4.0.9",
-    "@adonisjs/framework": "^5.0.13",
-    "@adonisjs/ignitor": "^2.0.8"
+    "@adonisjs/core": "^5.9.0"
   }
 }
