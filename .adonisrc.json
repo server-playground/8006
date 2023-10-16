@@ -1,0 +1,8 @@
+{
+  "preloads": [
+    "./start/routes"
+  ],
+  "providers": [
+    "@adonisjs/core"
+  ]
+}
