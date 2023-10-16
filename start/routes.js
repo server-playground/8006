@@ -1,6 +1,6 @@
 'use strict'
 
-const Route = use('Route')
+const Route = global[Symbol.for('ioc.use')]('Adonis/Core/Route')
 
 Route.get('/', ({ request }) => {
   console.log('')
