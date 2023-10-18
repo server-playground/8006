@@ -7,9 +7,9 @@ https://github.com/adonisjs/adonis-framework
 
 ## Usage
 
-```
-$ npm install
-$ npm run start
+```bash
+npm install
+npm run start
 ```
 
 * http://localhost:8006/
